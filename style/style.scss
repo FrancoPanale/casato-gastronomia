@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d0b85e;
+
+    .title {
+        margin: 25px;
+        padding: 15px;
+
+        h1 {
+            
+            font-size: 2rem;
+        }
+
+        .container-title {
+            display: flex;
+            flex-direction: row;
+            .pic-principal {
+                
+
+                img {
+                    border-radius: 15%;
+                    width: 400px;
+                    height: 450px;
+
+                }
+            }
+
+            .txt-principal {
+                .p1 {
+                    font-size: 1.5rem;
+                }
+
+                .p2 {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    } // title
+}

@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d0b85e;
+}
+body .title {
+  margin: 25px;
+  padding: 15px;
+}
+body .title h1 {
+  font-size: 2rem;
+}
+body .title .container-title {
+  display: flex;
+  flex-direction: row;
+}
+body .title .container-title .pic-principal img {
+  border-radius: 15%;
+  width: 400px;
+  height: 450px;
+}
+body .title .container-title .txt-principal .p1 {
+  font-size: 1.5rem;
+}
+body .title .container-title .txt-principal .p2 {
+  font-size: 1.5rem;
+}/*# sourceMappingURL=style.css.map */

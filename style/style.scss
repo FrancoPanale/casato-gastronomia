@@ -12,13 +12,21 @@ body {
         padding: 15px;
 
         h1 {
-            
-            font-size: 2rem;
+            text-align: center;
+            margin: 25px;
+            font-size: 3rem;
         }
 
         .container-title {
             display: flex;
             flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            border-top: 5px #E4D587 solid;
+            border-bottom: 5px #E4D587 solid;
+            border-radius: 50px;
+            padding: 25px;
             .pic-principal {
                 
 
@@ -32,13 +40,82 @@ body {
 
             .txt-principal {
                 .p1 {
-                    font-size: 1.5rem;
+                    font-size: 2rem;
                 }
 
                 .p2 {
-                    font-size: 1.5rem;
+                    font-size: 2rem;
                 }
             }
         }
-    } // title
+    } // TITLE
+
+    main{
+        #recetas{
+            display:flex;
+            flex-direction:row;
+            flex-wrap: wrap;
+            margin: 7.5%;
+            border-top: 5px #E4D587 solid;
+            border-bottom: 5px #E4D587 solid;
+            border-radius: 50px;
+            padding: 25px;
+        } // RECETAS
+        #info{
+            h2{
+                text-align: center;
+                margin: 25px;
+                font-size: 3rem;
+            }
+            .container-p{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                div{
+                    border-left: 5px #E4D587 solid;
+                    border-right: 5px #E4D587 solid;
+                    border-radius: 35px;
+                    padding: 25px;
+                    margin: 25px;
+                    width: 35%;
+                    p{
+                        font-size: 2rem;
+                    }
+                    }
+            } // CONTAINER INFO P
+        }   // INFO
+        
+        #contacto{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 50px;
+            padding: 15px;
+            border-top: 5px #E4D587 solid;
+            border-radius: 15px;
+            h2{
+                text-align: center;
+                margin: 25px;
+                font-size: 3rem;
+            }
+            .carousel{
+                width: 700px;
+                height: 750px;
+                margin: 25px; 
+                img{
+                    border-left: 5px #E4D587 solid;
+                    border-right: 5px #E4D587 solid;
+                    padding: 25px;
+                    border-radius: 15%;
+                    width: 650px;
+                    height: 750px;
+                    margin: 35px; 
+                }
+            }
+        } // CONTACTO
+    } // CONTENIDO
 }

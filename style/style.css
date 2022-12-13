@@ -12,11 +12,20 @@ body .title {
   padding: 15px;
 }
 body .title h1 {
-  font-size: 2rem;
+  text-align: center;
+  margin: 25px;
+  font-size: 3rem;
 }
 body .title .container-title {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  border-top: 5px #E4D587 solid;
+  border-bottom: 5px #E4D587 solid;
+  border-radius: 50px;
+  padding: 25px;
 }
 body .title .container-title .pic-principal img {
   border-radius: 15%;
@@ -24,8 +33,71 @@ body .title .container-title .pic-principal img {
   height: 450px;
 }
 body .title .container-title .txt-principal .p1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 body .title .container-title .txt-principal .p2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
+}
+body main #recetas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 7.5%;
+  border-top: 5px #E4D587 solid;
+  border-bottom: 5px #E4D587 solid;
+  border-radius: 50px;
+  padding: 25px;
+}
+body main #info h2 {
+  text-align: center;
+  margin: 25px;
+  font-size: 3rem;
+}
+body main #info .container-p {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+body main #info .container-p div {
+  border-left: 5px #E4D587 solid;
+  border-right: 5px #E4D587 solid;
+  border-radius: 35px;
+  padding: 25px;
+  margin: 25px;
+  width: 35%;
+}
+body main #info .container-p div p {
+  font-size: 2rem;
+}
+body main #contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  padding: 15px;
+  border-top: 5px #E4D587 solid;
+  border-radius: 15px;
+}
+body main #contacto h2 {
+  text-align: center;
+  margin: 25px;
+  font-size: 3rem;
+}
+body main #contacto .carousel {
+  width: 700px;
+  height: 750px;
+  margin: 25px;
+}
+body main #contacto .carousel img {
+  border-left: 5px #E4D587 solid;
+  border-right: 5px #E4D587 solid;
+  padding: 25px;
+  border-radius: 15%;
+  width: 650px;
+  height: 750px;
+  margin: 35px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,3 +1,82 @@
+@media only screen and (max-width: 768px) {
+  .title h1 {
+    font-size: 2rem;
+  }
+  .title .container-title {
+    flex-direction: column;
+  }
+  .title .container-title img {
+    border-radius: 15%;
+    width: 200px;
+    height: 250px;
+  }
+  .title .container-title .txt-principal .p1 {
+    font-size: 1rem;
+  }
+  .title .container-title .txt-principal .p2 {
+    font-size: 1rem;
+  }
+  main #info h2 {
+    font-size: 2rem;
+  }
+  main #info .container-p {
+    flex-direction: column;
+  }
+  main #info .container-p div {
+    width: 80%;
+  }
+  main #info .container-p div p {
+    font-size: 1rem;
+  }
+  main #contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 15px;
+    border-top: 5px #E4D587 solid;
+    border-radius: 15px;
+  }
+  main #contacto h2 {
+    text-align: center;
+    margin: 25px;
+    font-size: 3rem;
+  }
+  main #contacto .carousel {
+    width: 400px;
+    height: 450px;
+  }
+  main #contacto .carousel img {
+    width: 350px;
+    height: 450px;
+  }
+}
+.redes {
+  display: flex;
+  flex-direction: column;
+}
+.redes .f-text {
+  padding: 50px;
+}
+.redes .f-text p {
+  text-align: center;
+  margin: 25px;
+  font-size: 2rem;
+}
+.redes .f-redes {
+  display: flex;
+  flex-direction: row;
+  margin: 10% 10% 10% 15%;
+  padding: 15px;
+}
+.redes .f-redes a {
+  text-decoration: none;
+}
+.redes .f-redes a img {
+  width: 25%;
+}
+
 * {
   padding: 0;
   margin: 0;

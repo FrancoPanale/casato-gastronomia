@@ -1,4 +1,4 @@
-@import "responsive";
+
 * {
     padding: 0;
     margin: 0;
@@ -182,3 +182,114 @@
         } // FOOTER
 
     } // BODY
+
+
+
+
+    // MOBILE
+
+
+@media screen and (max-width: 768px) {
+    .title {
+        h1 {
+            font-size: 2rem!important;
+        }
+
+        .container-title {
+            flex-direction: column!important;
+
+            img{
+                border-radius: 15%!important;
+                width: 200px!important;
+                height: 250px!important;
+            }
+
+            .txt-principal {
+                .p1 {
+                    font-size: 1rem!important;
+                }
+
+                .p2 {
+                    font-size: 1rem!important;
+                }
+            }
+        }
+    }
+    // titulo
+    main {
+        #info {
+            h2 {
+                font-size: 2rem!important;
+            }
+
+            .container-p {
+                flex-direction: column!important;
+                div {
+                    width: 80%!important;
+                    p {
+                        font-size: 1rem!important;
+                    }
+                }
+            }
+
+            // CONTAINER INFO P
+        }
+        #contacto{
+            display: flex!important;
+            flex-direction: column!important;
+            justify-content: center!important;
+            align-items: center!important;
+            margin: 50px!important;
+            padding: 15px!important;
+            border-top: 5px #E4D587 solid!important;
+            border-radius: 15px!important;
+
+            h2 {
+                text-align: center!important;
+                margin: 25px!important;
+                font-size: 3rem!important;
+            }
+
+            .carousel {
+                width: 400px!important;
+                height: 450px!important;
+                img {
+                    width: 350px!important;
+                    height: 450px!important;
+                    }
+            }
+        }
+
+        // CONTACTO
+    }
+    
+    .redes {
+        display: flex!important;
+        flex-direction: column!important;
+
+        .f-text {
+            padding: 50px!important;
+
+            p {
+                text-align: center!important;
+                margin: 25px!important;
+                font-size: 2rem!important;
+            }
+        }
+
+        .f-redes{
+            display: flex!important;
+            flex-direction: row!important;
+            margin: 10% 10% 10% 15%!important;
+            padding: 15px!important;
+
+            a {
+                text-decoration: none!important;
+
+                img {
+                    width: 25%!important;
+                }
+            }
+        }
+    } // FOOTER
+} 

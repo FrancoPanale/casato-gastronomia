@@ -100,4 +100,36 @@ body main #contacto .carousel img {
   width: 650px;
   height: 750px;
   margin: 35px;
+}
+body .redes {
+  display: flex;
+  flex-direction: column;
+}
+body .redes .f-text {
+  padding: 50px;
+}
+body .redes .f-text p {
+  text-align: center;
+  margin: 25px;
+  font-size: 2rem;
+}
+body .redes .f-redes {
+  display: flex;
+  flex-direction: row;
+  margin: 10% 10% 10% 15%;
+  padding: 15px;
+}
+body .redes .f-redes a {
+  text-decoration: none;
+}
+body .redes .f-redes a img {
+  width: 25%;
+}
+body .redes .f-redes a :hover {
+  border-left: 5px #E4D587 solid;
+  border-right: 5px #E4D587 solid;
+  padding: 5px;
+  width: 30%;
+  border-radius: 15px;
+  transition: all 0.5s;
 }/*# sourceMappingURL=style.css.map */

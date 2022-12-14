@@ -84,7 +84,7 @@ body {
                     p{
                         font-size: 2rem;
                     }
-                    }
+                }
             } // CONTAINER INFO P
         }   // INFO
         
@@ -118,4 +118,37 @@ body {
             }
         } // CONTACTO
     } // CONTENIDO
-}
+    
+    .redes{
+        display: flex;
+        flex-direction: column;
+        .f-text{
+            padding: 50px;
+            p{
+                text-align: center;
+                margin: 25px;
+                font-size: 2rem;
+            }
+        }
+        .f-redes{
+            display: flex;
+            flex-direction: row;
+            margin: 10% 10% 10% 15%;
+            padding: 15px;
+            a{
+                text-decoration: none;
+                img{
+                    width: 25%;
+                }
+            }
+            a :hover{
+                border-left: 5px #E4D587 solid;
+                border-right: 5px #E4D587 solid;
+                padding: 5px;
+                width: 30%;
+                border-radius: 15px;
+                transition: all 0.5s;
+            }
+        }
+    } // FOOTER
+} // BODY
